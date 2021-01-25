@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import '../node_modules/bootstrap/scss/bootstrap-grid.scss';
+
+
+
+/************start CSS reset************/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/************end CSS reset************/
+
+
+
+
+
+/************start main variables************/
+:root {
+  font-size: 6.25%;
+}
+/************end main variables************/
+
+body {
+  font-size: 16rem;
+  background-color: #ffd54f;
+  font-family: 'Almarai', sans-serif;
+}

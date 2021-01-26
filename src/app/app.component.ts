@@ -11,7 +11,7 @@ export class AppComponent implements OnInit {
   hours = 0;
   minutes = 0;
   seconds = 0;
-  birthday = '\'May\' 24, 2021 00:00:00';
+  birthday = '\'Jun\' 24, 2021 00:00:00';
   countDown: number = new Date(this.birthday).getTime();
 
   constructor() {

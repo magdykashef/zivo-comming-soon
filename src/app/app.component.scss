@@ -14,23 +14,21 @@ body {
   color: #333;
   margin: 0 auto;
   text-align: center;
-  margin-top: -30rem;
 }
 
 h1 {
-  position: relative;
-  top: -20rem;
   font-weight: normal;
   letter-spacing: 0.125rem;
   font-size: 90rem;
-  margin-bottom: 20rem;
 }
 
-.col-6,
-.col-sm-2 {
+.col-12,
+.col-md-2,
+.col-sm-3 {
   position: relative;
   top: -20rem;
   font-size: 20rem;
+  margin-bottom: 30rem;
 }
 
 div span {
@@ -39,5 +37,6 @@ div span {
 }
 
 #countdown{
+  margin-top: 70rem;
   padding-bottom: 50rem;
 }
